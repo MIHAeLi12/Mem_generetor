@@ -35,9 +35,9 @@ text = draw.textbbox((0,0),top_text,font1)
 
 text2 = draw.textbbox((0,0),bottom_text,font1)
 
-draw.text(((width - text[2]) / 2, 10), top_text, font=font1, fill='black')
+draw.text(((width - text[2]) / 2, 10), top_text, font=font1, fill='red')
 
-draw.text(((width - text2[2]) / 2,(height - text2[3] -10)), bottom_text, font=font1, fill='black')
+draw.text(((width - text2[2]) / 2,(height - text2[3] -10)), bottom_text, font=font1, fill='red')
 
 imge.save('nev_mem.jpg')
 
